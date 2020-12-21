@@ -1,0 +1,47 @@
+/* estilos a las tablas */
+/* https://www.w3schools.com/css/css_table.asp */
+/* aplicando todo el ancho a la tabla */
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+}
+
+/*tamaños de las celdas del encabezado */
+.ah{
+    width: 5%;
+}
+.bh{
+    width: 10%;
+}
+.ch{
+    width: 35%;
+}
+.dh{
+    width: 50%;
+}
+/* si queremos alinear al centro el contenido de los 
+   elementos td que por defecto vienen alineados a la
+   izquierda hacemos esto */
+/* td{
+    text-align: center;
+} */
+/* si quisieramos aplicar fondo a los encabezados de
+   las tablas hacemos esto */
+/* th{
+    background-color: salmon;
+} */
+
+/*
+    COLSPAN ROWSPAN
+*/
+/*
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+*/
+

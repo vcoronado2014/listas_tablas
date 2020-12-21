@@ -1,0 +1,35 @@
+body {
+    display: block;
+    margin: 8px;
+}
+/* LISTAS DESORDENADAS */
+.lista-1{
+    /* circulo */
+    /* list-style-type: circle; */
+    /* cuadrado */
+    list-style-type: square;
+    /* ninguno */
+    /* list-style-type: none; */
+}
+/* LISTAS ORDENADAS */
+.lista-ordenada{
+    /* valor numerico */
+   /* list-style-type: decimal; */
+   /* le agrega un 0 cuando es menor a 10 */ 
+   /* list-style-type: decimal-leading-zero;  */
+   /* numeros romanos mayuscula */
+   /* list-style-type: upper-roman; */
+    /* numeros romanos minúscula */
+    /* list-style-type: lower-roman; */
+    /* numeros latin mayuscula */
+   /* list-style-type: upper-latin; */
+   /* numeros latin minuscula */
+   list-style-type: lower-latin;
+}
+.ul-estilo {
+    list-style: lower-latin;
+    text-indent: 30px;
+}
+.li-reglamento{
+    padding-bottom: 10px;
+}
